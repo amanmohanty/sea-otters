@@ -1,6 +1,7 @@
 #  Analysis of Dynamics of Sea Otter Population in California for Guiding Conservational Efforts
 #### Authors
 > Jui-Chia Chung
+
 > Aman Mohanty
 
 ## Abstract
