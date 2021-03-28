@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1f6a10d255d640fea8fff70146fb9de9 {
+                    position: relative;
+                    width: 50.0%;
+                    height: 70.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_1f6a10d255d640fea8fff70146fb9de9" ></div>
+        
+</body>
+<script>    
+    
+            var map_1f6a10d255d640fea8fff70146fb9de9 = L.map(
+                "map_1f6a10d255d640fea8fff70146fb9de9",
+                {
+                    center: [36.18907, -120.765664],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0adedc912bc540779faa7c42a1fbce04 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 14, "maxZoom": 14, "minZoom": 5, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1f6a10d255d640fea8fff70146fb9de9);
+        
+    
+            var marker_b762ce798033407f96deb8c8ff8788ff = L.marker(
+                [37.18434548901108, -122.39470954049565],
+                {}
+            ).addTo(map_1f6a10d255d640fea8fff70146fb9de9);
+        
+    
+            var icon_f0746b00ece14587938c13e604859847 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b762ce798033407f96deb8c8ff8788ff.setIcon(icon_f0746b00ece14587938c13e604859847);
+        
+    
+            marker_b762ce798033407f96deb8c8ff8788ff.bindTooltip(
+                `<div>
+                     Pigeon Point
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b31ff3e0a0542a693d797ee40b7139f = L.marker(
+                [36.972049429039096, -121.95152041838831],
+                {}
+            ).addTo(map_1f6a10d255d640fea8fff70146fb9de9);
+        
+    
+            var icon_1ad9da9bfc5040f49c8b2d8d56e737bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1b31ff3e0a0542a693d797ee40b7139f.setIcon(icon_1ad9da9bfc5040f49c8b2d8d56e737bb);
+        
+    
+            marker_1b31ff3e0a0542a693d797ee40b7139f.bindTooltip(
+                `<div>
+                     Capitola(Beach)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_261c5d5e5c514917b4a12e1c8499c3c5 = L.marker(
+                [36.615470635247696, -121.85781056508648],
+                {}
+            ).addTo(map_1f6a10d255d640fea8fff70146fb9de9);
+        
+    
+            var icon_9776eed846474da481644b8351910e5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_261c5d5e5c514917b4a12e1c8499c3c5.setIcon(icon_9776eed846474da481644b8351910e5e);
+        
+    
+            marker_261c5d5e5c514917b4a12e1c8499c3c5.bindTooltip(
+                `<div>
+                     Seaside(Monterey State Beach)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b868013f54a434c8bd57221d32ab6fd = L.marker(
+                [36.5236214892572, -121.95278200355799],
+                {}
+            ).addTo(map_1f6a10d255d640fea8fff70146fb9de9);
+        
+    
+            var icon_e5deaf3ea4db46e9ad868188972e711e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8b868013f54a434c8bd57221d32ab6fd.setIcon(icon_e5deaf3ea4db46e9ad868188972e711e);
+        
+    
+            marker_8b868013f54a434c8bd57221d32ab6fd.bindTooltip(
+                `<div>
+                     Point Lobos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be5e7e53462f478095fb26f57ac7d21a = L.marker(
+                [36.3069690273742, -121.90086508992727],
+                {}
+            ).addTo(map_1f6a10d255d640fea8fff70146fb9de9);
+        
+    
+            var icon_a38154a9fac9468a943cc722306ed7af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_be5e7e53462f478095fb26f57ac7d21a.setIcon(icon_a38154a9fac9468a943cc722306ed7af);
+        
+    
+            marker_be5e7e53462f478095fb26f57ac7d21a.bindTooltip(
+                `<div>
+                     Point Sur(Lighthouse)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7616e540e0754881b8d8fc9647c0102b = L.marker(
+                [36.08561998793649, -121.61823511757963],
+                {}
+            ).addTo(map_1f6a10d255d640fea8fff70146fb9de9);
+        
+    
+            var icon_be387b257bc944ed9d1725853e42bbea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7616e540e0754881b8d8fc9647c0102b.setIcon(icon_be387b257bc944ed9d1725853e42bbea);
+        
+    
+            marker_7616e540e0754881b8d8fc9647c0102b.bindTooltip(
+                `<div>
+                     Dolan Rock
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3bd3676132ad4c53991a2bc59f532068 = L.marker(
+                [35.88982498346323, -121.46281907163161],
+                {}
+            ).addTo(map_1f6a10d255d640fea8fff70146fb9de9);
+        
+    
+            var icon_bcd7d124719a4228a3e40487186fc0fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3bd3676132ad4c53991a2bc59f532068.setIcon(icon_bcd7d124719a4228a3e40487186fc0fd);
+        
+    
+            marker_3bd3676132ad4c53991a2bc59f532068.bindTooltip(
+                `<div>
+                     C San Martin(Cape)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bbb8bc21ff96477cbd86e35dd1f6831b = L.marker(
+                [35.63684751230898, -121.19492013310929],
+                {}
+            ).addTo(map_1f6a10d255d640fea8fff70146fb9de9);
+        
+    
+            var icon_ae178d3b6baf4b37844c3a88bde744c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bbb8bc21ff96477cbd86e35dd1f6831b.setIcon(icon_ae178d3b6baf4b37844c3a88bde744c8);
+        
+    
+            marker_bbb8bc21ff96477cbd86e35dd1f6831b.bindTooltip(
+                `<div>
+                     San Simeon Point
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_851c4befeb954f6bbc07827aeaaf4779 = L.marker(
+                [35.450113738013975, -120.90547693639098],
+                {}
+            ).addTo(map_1f6a10d255d640fea8fff70146fb9de9);
+        
+    
+            var icon_b1dae64261e4450ca253eca6547b98c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_851c4befeb954f6bbc07827aeaaf4779.setIcon(icon_b1dae64261e4450ca253eca6547b98c8);
+        
+    
+            marker_851c4befeb954f6bbc07827aeaaf4779.bindTooltip(
+                `<div>
+                     Cayucos(Beach)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e7cd71e31994dcfb592bfe614843fb1 = L.marker(
+                [35.290814980161336, -120.88370600256532],
+                {}
+            ).addTo(map_1f6a10d255d640fea8fff70146fb9de9);
+        
+    
+            var icon_37581ed33a3549fb8278ae075b783520 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2e7cd71e31994dcfb592bfe614843fb1.setIcon(icon_37581ed33a3549fb8278ae075b783520);
+        
+    
+            marker_2e7cd71e31994dcfb592bfe614843fb1.bindTooltip(
+                `<div>
+                     Hazard Canyon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a40f89047ba469f8abc169bab9d204e = L.marker(
+                [35.14265430661362, -120.64387229555241],
+                {}
+            ).addTo(map_1f6a10d255d640fea8fff70146fb9de9);
+        
+    
+            var icon_04831580d9b14c8b910b5a1622979634 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3a40f89047ba469f8abc169bab9d204e.setIcon(icon_04831580d9b14c8b910b5a1622979634);
+        
+    
+            marker_3a40f89047ba469f8abc169bab9d204e.bindTooltip(
+                `<div>
+                     Pismo Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c30a8832a52145fa93cbd989be53cb08 = L.marker(
+                [34.90401826260435, -120.67040841806637],
+                {}
+            ).addTo(map_1f6a10d255d640fea8fff70146fb9de9);
+        
+    
+            var icon_49c46485c77d4d58b1b338b1f34b7bf0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c30a8832a52145fa93cbd989be53cb08.setIcon(icon_49c46485c77d4d58b1b338b1f34b7bf0);
+        
+    
+            marker_c30a8832a52145fa93cbd989be53cb08.bindTooltip(
+                `<div>
+                     Point Sal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed1f9f8408b54e69a64bebbd32099c04 = L.marker(
+                [34.449016480303904, -120.47158983231594],
+                {}
+            ).addTo(map_1f6a10d255d640fea8fff70146fb9de9);
+        
+    
+            var icon_a3415d0f69ab4ad3b8632b5833a5c9f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ed1f9f8408b54e69a64bebbd32099c04.setIcon(icon_a3415d0f69ab4ad3b8632b5833a5c9f7);
+        
+    
+            marker_ed1f9f8408b54e69a64bebbd32099c04.bindTooltip(
+                `<div>
+                     Point Conception
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
